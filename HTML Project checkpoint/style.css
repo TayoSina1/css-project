@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+body{
+    background-color: burlywood;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    position: relative;
+    max-width: 81rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 3rem;
+    z-index: 10;
+}
+ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+ul a {
+text-decoration: none;
+color:#003546;
+    margin-left: 4.5rem;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+ul a:hover {
+    color: #357e99;
+    transform: scale(1.05);
+} 
+
+.thisP {
+    color: #0a142c;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
